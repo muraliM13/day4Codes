@@ -33,7 +33,7 @@ public class DisplayTest {
 	  
 	  
 	  //Take screenshot of entire page of code
-	/*  
+	  
 	  ChromeOptions options = new ChromeOptions();
 	  WebDriver driver  = new ChromeDriver();
 	  driver.manage().window().minimize();// to minimize the opened window in browser
@@ -42,7 +42,7 @@ public class DisplayTest {
 	  
 	  TakesScreenshot screen = (TakesScreenshot)driver;
 	  File src = screen.getScreenshotAs(OutputType.FILE);
-	  String path = System.getProperty("user.dir")+"/screenshots"+System.currentTimeMillis()+".png";
+	  String path = System.getProperty("user.dir")+"/screenshots/"+System.currentTimeMillis()+".png";
 	  FileUtils.copyFile(src, new File(path));
 	  
 	  WebElement closeIcon = driver.findElement(By.cssSelector("a[title = clear text]"));
@@ -51,9 +51,9 @@ public class DisplayTest {
 	  {
 		  closeIcon.click();
 	  }
- 	  */
+ 	  
 	  //to take single element
-	  
+	/*  
 	 // ChromeOptions options = new ChromeOptions();
 	  WebDriver driver  = new ChromeDriver();
 	  driver.manage().window().minimize();// to minimize the opened window in browser
@@ -72,7 +72,7 @@ public class DisplayTest {
 		  closeIcon.click();
 	  }
  	  
-	  
+	  */
 	  
 	  
 	  
