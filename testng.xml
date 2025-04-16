@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SampleSuite">
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="testScripts.AlertsWindowTest"/>
+      <class name="testScripts.DropDownTest"/>
+      <class name="testScripts.ExplicitWaitTest"/>
+      <class name="testScripts.FluentWaitTest"/>
+      <class name="testScripts.JSExecTest"/>
+      <class name="testScripts.shadowDOMTest"/>
+      <class name="testScripts.FileDownloadTest"/>
+      <class name="testScripts.RadioChkBoxTest"/>
+      <class name="testScripts.WebtableTest"/>
+      <class name="testScripts.DisplayTest"/>
+      <class name="testScripts.ToolTipTest"/>
+      <class name="testScripts.RemoteWebSampleTest"/>
+      <class name="testScripts.WinPopupTest"/>
+      <class name="testScripts.DynamicElementLocation"/>
+      <class name="testScripts.FileUploadTest"/>
+      <class name="testScripts.PageLoadTest"/>
+      <class name="testScripts.elativeLocatorstest"/>
+      <class name="testScripts.loginPagetest"/>
+      <class name="testScripts.GooglPageTest"/>
+      <class name="testScripts.AutoCompleteTest"/>
+      <class name="testScripts.MouseActionsTest"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- SampleSuite -->

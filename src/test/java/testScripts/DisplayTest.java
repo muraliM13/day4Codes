@@ -2,6 +2,7 @@ package testScripts;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
@@ -17,8 +18,9 @@ public class DisplayTest {
   @Test
   public void DisplayElementtest() throws InterruptedException, IOException {
   
-/*	  ChromeOptions options = new ChromeOptions();
+	  //ChromeOptions options = new ChromeOptions();
 	  WebDriver driver  = new ChromeDriver();
+	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));//implicitWait
 	  driver.manage().window().minimize();// to minimize the opened window in browser
 	  driver.get("https://automationbookstore.dev/");
 	  driver.findElement(By.id("searchBar")).sendKeys("Test");
@@ -29,9 +31,9 @@ public class DisplayTest {
 	  {
 		  closeIcon.click();
 	  }
-  */
+  
 	  
-	  
+	  /*  
 	  //Take screenshot of entire page of code
 	  
 	  ChromeOptions options = new ChromeOptions();
@@ -53,7 +55,7 @@ public class DisplayTest {
 	  }
  	  
 	  //to take single element
-	/*  
+	  
 	 // ChromeOptions options = new ChromeOptions();
 	  WebDriver driver  = new ChromeDriver();
 	  driver.manage().window().minimize();// to minimize the opened window in browser
